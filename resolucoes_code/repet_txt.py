@@ -1,1 +1,7 @@
-# Vamos solicitar como entrada dois números e depois vamos realizar uma operação simples entre eles.
+"""Repete um texto a quantidade de vezes informada."""
+
+texto = input("Digite um texto: ")
+quantidade = int(input("Quantas vezes deseja repetir? "))
+
+resultado = texto * quantidade
+print(f"Resultado: {resultado}")
